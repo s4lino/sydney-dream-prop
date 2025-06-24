@@ -224,7 +224,6 @@ function App() {
                   />
                 </div>
                  <div className="space-y-2">
-                    <label htmlFor="notes" className="block text-sm text-teal-900">Extra Info:</label>
                     <textarea
                         id="notes"
                         name="notes"
