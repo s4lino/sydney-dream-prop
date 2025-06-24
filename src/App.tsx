@@ -222,19 +222,6 @@ function App() {
                     value={formData.wishlist}
                     onChange={handleInputChange}
                   />
-                </div>
-                 <div className="space-y-2">
-                    <textarea
-                        id="notes"
-                        name="notes"
-                        rows={3}
-                        placeholder="Add any specific preferences here"
-                        className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-teal-500 text-sm resize-none"
-                        value={formData.notes}
-                        onChange={handleInputChange}
-                    />
-                </div>
-
                 <div className="space-y-2">
                     <label htmlFor="name" className="block text-sm text-teal-900">
                         Your Full Name:
